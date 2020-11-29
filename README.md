@@ -26,9 +26,14 @@ Para trabajar con DataAnnotations, deberemos agregar un ensamblado a las referen
 
 Existen varios data anotations, los cuales puedes utilizar para realizar las validaciones, a continuación una lista con los mas comunes:
 
-Required: El campo tiene que llenarse obligatoriamente \n
-Range: Define un valor máximo y mínimo en valores numéricos
-DisplayName: Especifica el nombre al mostrar para el campo
-MinLength: Indica el largo mínimo de una cadena de texto
-MaxLength: Indica el largo máximo de una cadena de texto
+Required: El campo tiene que llenarse obligatoriamente  
+
+Range: Define un valor máximo y mínimo en valores numéricos  
+
+DisplayName: Especifica el nombre al mostrar para el campo  
+
+MinLength: Indica el largo mínimo de una cadena de texto  
+
+MaxLength: Indica el largo máximo de una cadena de texto  
+
 EmailAddress: Valida que la cadena sea un email valido en su formato 

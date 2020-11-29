@@ -3,17 +3,20 @@ MOD06_DEMO_02
 
 Ejemplo del uso de **DataAnnotations**, que nos permite personalizar el modelo de datos mediante el uso de atributos que especifican reglas de formato, validación y asignación de base de datos.
 
-public class User
-    {
-        public int UserId { get; set; }
+public class User  
 
+    {  
+        public int UserId { get; set; }  
+        
+        
         [Display(Name = "Full Name:")]
-        public string FullName { get; set; }
+        public string FullName { get; set; }  
+        
 
         [Display(Name = "Email Address:")]
         [DataType(DataType.EmailAddress)]
-        public string Email { get; set; }
-
+        public string Email { get; set; } 
+        
         public DateTime Birthdate { get; set; }
 
         [Display(Name = "Password:")]

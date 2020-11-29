@@ -1,7 +1,7 @@
 # DataAnnotationsExample
 MOD06_DEMO_02
 
-Ejemplo del uso de ** DataAnnotations **, que nos permite personalizar el modelo de datos mediante el uso de atributos que especifican reglas de formato, validación y asignación de base de datos.
+Ejemplo del uso de **DataAnnotations**, que nos permite personalizar el modelo de datos mediante el uso de atributos que especifican reglas de formato, validación y asignación de base de datos.
 
 public class User
     {
